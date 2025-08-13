@@ -1,0 +1,2 @@
+2025-08-13 15:11:35 [INFO] Program Başlatıldı.
+2025-08-13 15:11:35 [INFO] Test logu yazıldı.
