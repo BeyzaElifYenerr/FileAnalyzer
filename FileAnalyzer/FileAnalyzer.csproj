@@ -93,13 +93,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analysis\TextAnalyzer.cs" />
     <Compile Include="Logging\Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Readers\DocxFileReader.cs" />
+    <Compile Include="Readers\FileReaderFactory.cs" />
+    <Compile Include="Readers\IFileReader.cs" />
+    <Compile Include="Readers\PdfFileReader.cs" />
+    <Compile Include="Readers\TxtFileReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

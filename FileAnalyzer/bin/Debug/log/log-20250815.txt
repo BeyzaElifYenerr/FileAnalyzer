@@ -1,0 +1,4 @@
+﻿[2025-08-15 12:01:45] [INFO] Uygulama başlatıldı.
+[2025-08-15 12:02:23] [INFO] Seçilen dosya: C:\Users\beyzy\Downloads\FileAnalyzerConsoleApp (1).pdf
+[2025-08-15 12:02:25] [INFO] Dosya okundu. Karakter sayısı: 2530
+[2025-08-15 12:02:25] [INFO] Analiz tamamlandı.
