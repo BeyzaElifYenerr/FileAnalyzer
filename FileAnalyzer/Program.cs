@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using FileAnalyzer.Tools;
 using FileAnalyzer.Tools.Analysis;
 using FileAnalyzer.Logging;
-using FileAnalyzer.Tools;
+using System.Linq;
 
 namespace FileAnalyzer
 {
@@ -16,52 +16,77 @@ namespace FileAnalyzer
             Console.OutputEncoding = Encoding.UTF8;
             Logger.Info("Uygulama başlatıldı.");
 
-            try
+            while (true) // döngü
             {
-                var filePath = ShowFilePicker();
-                if (string.IsNullOrEmpty(filePath))
+                Console.Clear();
+                Console.WriteLine("=== DOSYA ANALİZ UYGULAMASI ===");
+                Console.WriteLine("Merhaba!");
+                Console.WriteLine("1 - TXT dosyası seç");
+                Console.WriteLine("2 - PDF dosyası seç");
+                Console.WriteLine("3 - DOCX dosyası seç");
+                Console.Write("Seçiminizi yapın: ");
+                var choice = Console.ReadLine();
+
+                string filter = "";
+                switch (choice)
                 {
-                    Console.WriteLine("Dosya seçilmedi. Çıkılıyor...");
-                    Logger.Info("Kullanıcı dosya seçmeden çıktı.");
-                    return;
+                    case "1": filter = "Metin Dosyaları (*.txt)|*.txt"; break;
+                    case "2": filter = "PDF Dosyaları (*.pdf)|*.pdf"; break;
+                    case "3": filter = "Word Belgeleri (*.docx)|*.docx"; break;
+                    default:
+                        Console.WriteLine("Geçersiz seçim! Enter’a basın...");
+                        Console.ReadLine();
+                        continue;
                 }
 
-                Logger.Info($"Seçilen dosya: {filePath}");
+                try
+                {
+                    var filePath = ShowFilePicker(filter);
+                    if (string.IsNullOrEmpty(filePath))
+                    {
+                        Console.WriteLine("Dosya seçilmedi.");
+                        Logger.Info("Kullanıcı dosya seçmedi.");
+                    }
+                    else
+                    {
+                        Logger.Info($"Seçilen dosya: {filePath}");
 
-                var reader = FileReaderFactory.Create(filePath);
-                var text = reader.ReadAllText(filePath);
-                Logger.Info($"Dosya okundu. Karakter sayısı: {text?.Length ?? 0}");
+                        var reader = FileReaderFactory.Create(filePath);
+                        var text = reader.ReadAllText(filePath);
 
-                var analyzer = new TextAnalyzer();
+                        var analyzer = new TextAnalyzer();
+                        var wordFreq = analyzer.ComputeWordFrequencies(text);
+                        var punct = analyzer.CountPunctuation(text);
 
-                var wordFreq = analyzer.ComputeWordFrequencies(text);
-                var punct = analyzer.CountPunctuation(text);
+                        PrintSummary(wordFreq, punct);
 
-                PrintSummary(wordFreq, punct);
+                        Logger.Info("Analiz tamamlandı.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"Bir hata oluştu: {ex.Message}");
+                    Console.ResetColor();
+                    Logger.Error(ex.ToString());
+                }
 
-                Logger.Info("Analiz tamamlandı.");
+                Console.WriteLine();
+                Console.WriteLine("Analize devam edilsin mi?");
+                Console.WriteLine("1 - Evet, ana menüye dön");
+                Console.WriteLine("2 - Hayır, çıkış yap");
+                Console.Write("Seçiminiz: ");
+                var again = Console.ReadLine();
+
+                if (again == "2")
+                {
+                    Console.WriteLine("Program sonlandırılıyor...");
+                    break;
+                }
             }
-            catch (NotSupportedException ex)
-            {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine($"Uyarı: {ex.Message}");
-                Console.ResetColor();
-                Logger.Error(ex.ToString());
-            }
-            catch (Exception ex)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Bir hata oluştu: {ex.Message}");
-                Console.ResetColor();
-                Logger.Error(ex.ToString());
-            }
-
-            Console.WriteLine();
-            Console.WriteLine("Kapatmak için ENTER'a basın...");
-            Console.ReadLine();
         }
 
-        private static string ShowFilePicker()
+        private static string ShowFilePicker(string filter)
         {
             Application.EnableVisualStyles();
 
@@ -69,7 +94,7 @@ namespace FileAnalyzer
             {
                 dialog.Title = "Analiz edilecek dosyayı seçin";
                 dialog.Multiselect = false;
-                dialog.Filter = "Metin Dosyaları (*.txt)|*.txt|Word Belgeleri (*.docx)|*.docx|PDF Dosyaları (*.pdf)|*.pdf|Tüm Dosyalar (*.*)|*.*";
+                dialog.Filter = filter;
 
                 var result = dialog.ShowDialog();
                 if (result == DialogResult.OK)
@@ -89,31 +114,20 @@ namespace FileAnalyzer
             Console.WriteLine("========= ANALİZ ÖZETİ =========");
             Console.WriteLine($"Farklı kelime sayısı: {wordFreq.Count}");
 
-            var totalWordCount = wordFreq.Values.Sum();
-            Console.WriteLine($"Toplam kelime (stopwords hariç) geçiş sayısı: {totalWordCount}");
+            int totalWordCount = 0;
+            foreach (var v in wordFreq.Values)
+                totalWordCount += v;
+            Console.WriteLine($"Toplam kelime (stopwords hariç): {totalWordCount}");
 
             Console.WriteLine();
             Console.WriteLine("En çok tekrar eden 20 kelime:");
-            Console.WriteLine("--------------------------------");
             foreach (var kv in wordFreq.Take(20))
-            {
-                Console.WriteLine($"{kv.Key,-20} : {kv.Value,5}");
-            }
+                Console.WriteLine($"{kv.Key,-20} : {kv.Value}");
 
             Console.WriteLine();
-            Console.WriteLine("Noktalama işaretleri (çoktan aza):");
-            Console.WriteLine("----------------------------------");
-            if (punct.Count == 0)
-            {
-                Console.WriteLine("(Bulunamadı)");
-            }
-            else
-            {
-                foreach (var kv in punct)
-                {
-                    Console.WriteLine($"'{kv.Key}' : {kv.Value}");
-                }
-            }
+            Console.WriteLine("Noktalama işaretleri:");
+            foreach (var kv in punct)
+                Console.WriteLine($"'{kv.Key}' : {kv.Value}");
         }
     }
 }

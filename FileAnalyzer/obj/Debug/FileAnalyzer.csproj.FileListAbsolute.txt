@@ -13,10 +13,7 @@ C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\UglyToad.PdfPig.
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\UglyToad.PdfPig.Package.dll
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\UglyToad.PdfPig.Tokenization.dll
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\UglyToad.PdfPig.Tokens.dll
-C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\Xceed.Document.NET.dll
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\Xceed.Drawing.NET.dll
-C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\Xceed.Pdf.dll
-C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\Xceed.Words.NET.dll
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\Microsoft.Bcl.HashCode.xml
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\System.Buffers.xml
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\System.Memory.xml
@@ -36,11 +33,13 @@ C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\UglyToad.PdfPig.
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\UglyToad.PdfPig.Tokenization.xml
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\UglyToad.PdfPig.Tokens.pdb
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\UglyToad.PdfPig.Tokens.xml
-C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\Xceed.Document.NET.xml
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\Xceed.Drawing.NET.xml
-C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\Xceed.Words.NET.xml
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\obj\Debug\FileAnalyzer.csproj.AssemblyReference.cache
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\obj\Debug\FileAnalyzer.csproj.CoreCompileInputs.cache
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\obj\Debug\FileAnal.7C274443.Up2Date
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\obj\Debug\FileAnalyzer.exe
 C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\obj\Debug\FileAnalyzer.pdb
+C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\beyzy\source\repos\FileAnalyzer\FileAnalyzer\bin\Debug\DocumentFormat.OpenXml.Framework.xml
