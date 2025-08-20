@@ -1,0 +1,3 @@
+﻿[2025-08-20 15:42:41] [INFO] Uygulama başlatıldı.
+[2025-08-20 15:42:50] [INFO] Seçilen dosya: C:\Users\beyzy\Downloads\FileAnalyzerWinformsApp.pdf
+[2025-08-20 15:42:51] [INFO] Analiz tamamlandı.

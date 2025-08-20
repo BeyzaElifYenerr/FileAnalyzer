@@ -7,7 +7,8 @@ namespace FileAnalyzer.Logging
     public static class Logger
     {
         private static readonly object _lock = new object();
-        private static readonly string _logDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log");
+        private static readonly string _logDir = Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName,"Logs" );
+
 
         private static string CurrentLogFile =>
             Path.Combine(_logDir, $"log-{DateTime.Now:yyyyMMdd}.txt");
