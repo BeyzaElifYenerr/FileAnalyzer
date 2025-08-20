@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\dtos\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\dtos\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|c:\\users\\beyzy\\source\\repos\\todolistapp\\todolistapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E04F5E8-78F8-4AC4-B189-61AB80F5EC7C}|ToDoListApp\\ToDoListApp.csproj|solutionrelative:todolistapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Models\\Role.cs",
+              "RelativeToolTip": "ToDoListApp\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:33:35.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ToDoListApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:28:35.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ToDoListApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\appsettings.json",
+              "RelativeToolTip": "ToDoListApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-10T11:00:44.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Program.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Program.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Program.cs",
+              "RelativeToolTip": "ToDoListApp\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T06:39:00.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Startup.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Startup.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Startup.cs",
+              "RelativeToolTip": "ToDoListApp\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T06:34:26.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Services\\TokenService.cs",
+              "RelativeToolTip": "ToDoListApp\\Services\\TokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T10:51:47.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ToDoListApp\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAADwv5EAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T06:46:10.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "ToDoListApp\\Controllers\\NotesController.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAADwv60AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T05:43:17.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Models\\User.cs",
+              "RelativeToolTip": "ToDoListApp\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T06:32:20.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\Models\\Note.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\Models\\Note.cs",
+              "RelativeToolTip": "ToDoListApp\\Models\\Note.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T06:32:55.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "ToDoListApp\\DTOs\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T11:16:35.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\DTOs\\NoteDto.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\DTOs\\NoteDto.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\DTOs\\NoteDto.cs",
+              "RelativeToolTip": "ToDoListApp\\DTOs\\NoteDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:47:52.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\DTOs\\TokenDTO.cs",
+              "RelativeDocumentMoniker": "ToDoListApp\\DTOs\\TokenDTO.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\ToDoListApp\\ToDoListApp\\DTOs\\TokenDTO.cs",
+              "RelativeToolTip": "ToDoListApp\\DTOs\\TokenDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T05:03:13.118Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

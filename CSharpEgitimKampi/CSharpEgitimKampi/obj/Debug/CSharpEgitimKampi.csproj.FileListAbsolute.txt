@@ -1,0 +1,7 @@
+C:\Users\beyzy\source\repos\CSharpEgitimKampi\CSharpEgitimKampi\bin\Debug\CSharpEgitimKampi.exe.config
+C:\Users\beyzy\source\repos\CSharpEgitimKampi\CSharpEgitimKampi\bin\Debug\CSharpEgitimKampi.exe
+C:\Users\beyzy\source\repos\CSharpEgitimKampi\CSharpEgitimKampi\bin\Debug\CSharpEgitimKampi.pdb
+C:\Users\beyzy\source\repos\CSharpEgitimKampi\CSharpEgitimKampi\obj\Debug\CSharpEgitimKampi.csproj.AssemblyReference.cache
+C:\Users\beyzy\source\repos\CSharpEgitimKampi\CSharpEgitimKampi\obj\Debug\CSharpEgitimKampi.csproj.CoreCompileInputs.cache
+C:\Users\beyzy\source\repos\CSharpEgitimKampi\CSharpEgitimKampi\obj\Debug\CSharpEgitimKampi.exe
+C:\Users\beyzy\source\repos\CSharpEgitimKampi\CSharpEgitimKampi\obj\Debug\CSharpEgitimKampi.pdb

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\beyzy\\source\\repos\\CSharpEgitimKampi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F266EB2E-35AE-47D0-8235-392C93BCEBF4}|CSharpEgitimKampi\\CSharpEgitimKampi.csproj|c:\\users\\beyzy\\source\\repos\\csharpegitimkampi\\csharpegitimkampi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F266EB2E-35AE-47D0-8235-392C93BCEBF4}|CSharpEgitimKampi\\CSharpEgitimKampi.csproj|solutionrelative:csharpegitimkampi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C19BEF2-39F3-4C2D-B267-CE4D38B23A17}|CSharpEgitimKampi\\CSharpEgitimKampi.csproj|c:\\users\\beyzy\\source\\repos\\csharpegitimkampi\\csharpegitimkampi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C19BEF2-39F3-4C2D-B267-CE4D38B23A17}|CSharpEgitimKampi\\CSharpEgitimKampi.csproj|solutionrelative:csharpegitimkampi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE02F77-2B7E-45E5-A995-F0FEED65BD44}|02_Variables\\02_Variables.csproj|c:\\users\\beyzy\\source\\repos\\csharpegitimkampi\\02_variables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE02F77-2B7E-45E5-A995-F0FEED65BD44}|02_Variables\\02_Variables.csproj|solutionrelative:02_variables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\beyzy\\source\\repos\\CSharpEgitimKampi\\02_Variables\\Program.cs",
+              "RelativeDocumentMoniker": "02_Variables\\Program.cs",
+              "ToolTip": "C:\\Users\\beyzy\\source\\repos\\CSharpEgitimKampi\\02_Variables\\Program.cs",
+              "RelativeToolTip": "02_Variables\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:16:57.605Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +45,9 @@
               "RelativeDocumentMoniker": "CSharpEgitimKampi\\Program.cs",
               "ToolTip": "C:\\Users\\beyzy\\source\\repos\\CSharpEgitimKampi\\CSharpEgitimKampi\\Program.cs",
               "RelativeToolTip": "CSharpEgitimKampi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T11:11:27.374Z",
+              "WhenOpened": "2025-08-06T14:11:20.077Z",
               "EditorCaption": ""
             }
           ]

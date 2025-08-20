@@ -1,0 +1,4 @@
+2024-12-16 15:27:04.314 +03:00 [INF] Uygulama başlatılıyor.
+2024-12-16 15:27:06.211 +03:00 [WRN] The WebRootPath was not found: C:\Users\beyzy\source\repos\ToDoListApp\ToDoListApp\wwwroot. Static files may be unavailable.
+2024-12-16 15:27:07.396 +03:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-12-16 15:27:07.397 +03:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
