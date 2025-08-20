@@ -10,7 +10,7 @@ namespace FileAnalyzer
 {
     internal static class Program
     {
-        [STAThread] 
+        [STAThread]
         private static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;

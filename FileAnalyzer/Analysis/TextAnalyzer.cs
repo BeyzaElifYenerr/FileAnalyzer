@@ -8,7 +8,7 @@ namespace FileAnalyzer.Analysis
 {
     public class TextAnalyzer
     {
-        // TR + EN basit stopword seti (ihtiyaca göre genişletilebilir)
+
         private static readonly HashSet<string> StopWords = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
         {
             // Türkçe
@@ -23,10 +23,8 @@ namespace FileAnalyzer.Analysis
             "than","too","very","can","will","just"
         };
 
-        // \p{L}+ : Unicode harf dizileri (sayı ve işaretleri otomatik dışlar)
         private static readonly Regex WordRegex = new Regex(@"\p{L}+", RegexOptions.Compiled);
 
-        /// <summary>Metinden kelime frekanslarını döner (stopword ve sayılar hariç).</summary>
         public Dictionary<string, int> ComputeWordFrequencies(string text, string culture = "tr-TR")
         {
             var ci = new CultureInfo(culture);
@@ -43,7 +41,6 @@ namespace FileAnalyzer.Analysis
                 if (lowered.Length <= 1)
                     continue;
 
-                // (İstenirse burada Türkçe özel harf normalize edilebilir)
                 counts[lowered] = counts.TryGetValue(lowered, out var c) ? c + 1 : 1;
             }
 
@@ -53,7 +50,6 @@ namespace FileAnalyzer.Analysis
                 .ToDictionary(kv => kv.Key, kv => kv.Value);
         }
 
-        /// <summary>Metindeki tüm noktalama işaretlerini sayar.</summary>
         public Dictionary<char, int> CountPunctuation(string text)
         {
             var dict = new Dictionary<char, int>();
@@ -66,7 +62,6 @@ namespace FileAnalyzer.Analysis
                 }
             }
 
-            // Çoktan aza sıralı
             return dict.OrderByDescending(kv => kv.Value)
                        .ToDictionary(kv => kv.Key, kv => kv.Value);
         }
