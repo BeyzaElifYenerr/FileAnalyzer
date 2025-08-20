@@ -1,7 +1,8 @@
-﻿using System.Text;
+﻿    using System.Text;
 using UglyToad.PdfPig;
+using FileAnalyzer.Contracts;
 
-namespace FileAnalyzer.Readers
+namespace FileAnalyzer.Tools
 {
     public class PdfFileReader : IFileReader
     {

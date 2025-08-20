@@ -1,7 +1,8 @@
 ﻿using System;
 using System.IO;
+using FileAnalyzer.Contracts;
 
-namespace FileAnalyzer.Readers
+namespace FileAnalyzer.Tools
 {
     public static class FileReaderFactory
     {

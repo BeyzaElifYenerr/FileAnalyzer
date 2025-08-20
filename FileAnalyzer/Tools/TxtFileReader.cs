@@ -1,6 +1,7 @@
 ﻿using System.IO;
+using FileAnalyzer.Contracts;
 
-namespace FileAnalyzer.Readers
+namespace FileAnalyzer.Tools
 {
     public class TxtFileReader : IFileReader
     {

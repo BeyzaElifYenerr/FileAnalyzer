@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using FileAnalyzer.Analysis;
+using FileAnalyzer.Tools.Analysis;
 using FileAnalyzer.Logging;
-using FileAnalyzer.Readers;
+using FileAnalyzer.Tools;
 
 namespace FileAnalyzer
 {

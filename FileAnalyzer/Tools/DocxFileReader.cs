@@ -1,8 +1,9 @@
-﻿using Xceed.Words.NET;
+﻿using FileAnalyzer.Contracts;
+using Xceed.Words.NET;
 
-namespace FileAnalyzer.Readers
+namespace FileAnalyzer.Tools
 {
-    public class DocxFileReader : IFileReader 
+    public class DocxFileReader : IFileReader
     {
         public string ReadAllText(string path)
         {
